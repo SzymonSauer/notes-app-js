@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Notes</title>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap&subset=latin-ext"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/bfc6076af7.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="menu">
+			<h1><i class="fas fa-sticky-note"></i> MyNotes</h1>
+			<div class="menu-buttons">
+				<button class="add icon"><i class="fas fa-plus"></i> Add</button>
+				<button class="delete-all icon">
+					<i class="fas fa-trash-alt"></i> Delete all
+				</button>
+			</div>
+		</div>
+
+		<div class="note-area"></div>
+
+		<div class="note-panel">
+			<h2>Make a Web Note</h2>
+			<label for="category">Write the title of your note (max 10 signs):</label>
+			<textarea id="category"></textarea>
+
+			<label for="text">Write your note below:</label>
+			<textarea id="text"></textarea>
+
+			<label for="color">Choose color</label>
+			<select id="color" onchange="selectValue()">
+				<option value="0" disabled selected>- choose color -</option>
+				<option value="1">Red</option>
+				<option value="1">Green</option>
+				<option value="1">Blue</option>
+				<option value="1">Grey</option>
+			</select>
+
+			<p class="error">
+				Check if you have completed the fields correctly and selected the color.
+			</p>
+
+			<div class="panel-buttons">
+				<button class="save icon"><i class="fas fa-save"></i> Save</button>
+				<button class="cancel icon">
+					<i class="far fa-window-close"></i> Cancel
+				</button>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
