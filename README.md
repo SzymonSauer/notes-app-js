@@ -20,7 +20,7 @@ Project is created with:
 * JavaScript
 
 ## Screenshots
-![Example screenshot](./img/notes1.jpg)
+![Example screenshot](./img/notes1.JPG)
 ![Example screenshot](./img/notes2.jpg)
 ![Example screenshot](./img/notes3.jpg)
 
