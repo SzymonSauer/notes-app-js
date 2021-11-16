@@ -21,8 +21,8 @@ Project is created with:
 
 ## Screenshots
 ![Example screenshot](./img/notes1.JPG)
-![Example screenshot](./img/notes2.jpg)
-![Example screenshot](./img/notes3.jpg)
+![Example screenshot](./img/notes2.JPG)
+![Example screenshot](./img/notes3.JPG)
 
 ## Setup
 You can see this project on-line using link: https://szymonsauer.github.io/notes-app-js/.
